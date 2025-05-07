@@ -66,9 +66,11 @@ main {
 }
 
 .hero {
+  height: 100vh;
   background-image: url('images/background.jpg'); /* or use a full URL */
   background-size: cover;
   background-position: center;
+  display: flex;
   padding: 6rem 2rem;
   color: white;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
